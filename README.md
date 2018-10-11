@@ -39,7 +39,7 @@ Setup for Desktop
     ```
 2. Clone this repository.
     ```
-    git clone https://github.com/NVIDIA-Jetson/reid.git
+    git clone https://github.com/giranntu/Human-ReID-in-NVIDIA-Jetson.git
     cd reid
     ```
 3. Run the installation script.
@@ -54,7 +54,7 @@ Setup For Jetson
   2. Follow the instructions at (https://github.com/NVIDIA-Jetson/argus_camera)
   3. Clone this repository
       ```
-      git clone https://github.com/NVIDIA-Jetson/reid.git
+      git clone https://github.com/giranntu/Human-ReID-in-NVIDIA-Jetson.git
       ```
   4. Install OpenCv.
       ```
