@@ -1,0 +1,22 @@
+python3 main_reid.py \
+  --restore=False\
+  --id=-1 \
+  --train=True \
+  --embedding_dim=2048 \
+  --height=256 \
+  --width=128 \
+  --learning_rate=1e-5 \
+  --num_epochs=256 \
+  --batch_size=64 \
+  --momentum=0.9 \
+  --margin=0.10 \
+  --threshold=0.0 \
+  --data_dir=./data/bounding_box_train/ \
+  --write_images=False \
+  --save_itr=10 \
+  --N=5000 \
+  --sample_num=25 \
+  --k=16 \
+  --p_0=0.0 \
+  --p_max=0.5 \
+  --init_model=./models/id/m29/model.ckpt-1751

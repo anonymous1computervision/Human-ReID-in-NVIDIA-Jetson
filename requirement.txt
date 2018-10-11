@@ -1,0 +1,4 @@
+tensorflow
+cv2
+numpy
+pprint
