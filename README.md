@@ -1,12 +1,16 @@
 Human REID in NVIDIA Jetson 
 ===========
 
-<img src="assets/Pipeline.PNG" alt="pipeline" height="300px"/> 
 
 This repository contains scripts and documentation for the training and deployment of fast person re-identification on NVIDIA's Jetson platform.
 The object detection model and corresponding scripts were taken from jetson tf-trt-models, found at (https://github.com/NVIDIA-Jetson/tf_trt_models) ,
 while the backbone of the re-identification model is a Resnet-50-v1 taken from the tensorflow models repository. The code to run the camera on Jetson was taken from
 (https://github.com/NVIDIA-Jetson/argus_camera). 
+
+
+<img src="assets/Pipeline.PNG" alt="pipeline" height="300px"/> 
+
+
 
 * [Setup](#setup)
   * [Desktop setup](#setup_desktop)
